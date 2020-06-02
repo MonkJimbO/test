@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 2</title>
+  <link rel="icon" href="img/favicon.png" type='image/png'>
+
+  <style media="screen">
+    .contact_icon {
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+
+    .contact_item {
+      text-decoration-style: solid;
+      margin-right: 5px;
+    }
+
+    .strong {
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Hello world</h1>
+    <nav>
+      <ul>
+        <li> <a href="/"> Main </a></li>
+        <li> <a href="#frontend"> Frontend</a></li>
+        <li> <a href="#html5"> Basics of HTML5</a></li>
+      </ul>
+      <div class="contact">
+        <a class="contact_item" href="tel:+380994446655">
+          <img class="contact_icon" src="img/phone.png" alt="Call me" width="16px">
+          Call me on +38 (099) 444 66 55</a>
+        <a class="contact_item" href="skype:monkjimbo.in.ch?chat">
+          <img class="contact_icon" src="img/skype.png" alt="Write me" width="16px">
+          Write me on skype</a>
+    </nav>
+  </header>
+  <hr>
+  <article class="">
+    <section>
+      <figure>
+        <img src="img/yeti-html5.png" alt="HTML is easy" title="Yeti" width="500">
+        <figcaption>This is Yeti, he will help us to learn frontend.</figcaption>
+      </figure>
+      <section id="frontend">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet, <span class="strong"> consectetur </span> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex
+          ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <blockquote>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </blockquote>
+        <dl>
+          <dt><strong>HTML5</strong></dt>
+          <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</dd>
+          <dt><strong>CSS</strong></dt>
+          <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</dd>
+          <dt><strong>Javascript</strong></dt>
+          <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</dd>
+        </dl>
+      </section>
+      <section id="html5">
+        <h2>Basics HTML5</h2>
+        <h3>HTML-links</h3>
+        <ol>
+          <li>
+            <a href="https://google.com" target="_blank"> Link to material</a>
+          </li>
+        </ol>
+        <details>
+          <summary>youtube video</summary>
+          <iframe src="https://www.youtube.com/watch?v=36YnV9STBqc" width="500" height="500"></iframe>
+        </details>
+        <details>
+          <summary>Details of the web page</summary>
+          <iframe src="index.html" width="500" height="500"></iframe>
+        </details>
+        <form class="" action="#" method="post">
+          <h2>Fill form</h2>
+          <div class="form_row">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="surname">Your surname</label>
+            <input type="text" id="surname" name="surname"><br>
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="Birthdate">Your birthdate</label>
+            <input type="date" id="birthdate" name="birthdate"><br>
+          </div>
+          <div class="form_row">
+            <p>Mark what you got</p>
+            <div>
+              <label for="html">html</label>
+              <input type="checkbox" id="html" name="skills">
+            </div>
+            <div>
+              <label for="css">CSS</label>
+              <input type="checkbox" id="css" name="skills">
+            </div>
+            <div>
+              <label for="JS">JS</label>
+              <input type="checkbox" id="JS" name="skills">
+            </div>
+          </div>
+          <br><br>
+          <div class="form_row">
+            <p>Choose score</p>
+            <div>
+              <label for="8">8</label>
+              <input if="8" type="radio" name="rating">
+            </div>
+            <div>
+              <label for="9">9</label>
+              <input if="9" type="radio" name="rating">
+            </div>
+            <div>
+              <label for="10">10</label>
+              <input if="10" type="radio" name="rating">
+            </div>
+          </div>
+          <br><br>
+          <input type="submit" name="" value="Send form">
+
+
+
+
+        </form>
+
+      </section>
+
+    </section>
+  </article>
+</body>
+
+</html>
